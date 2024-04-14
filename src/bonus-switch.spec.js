@@ -30,6 +30,8 @@ describe('Bonus tests - No Scores', () => {
     expect(log).toHaveBeenNthCalledWith(9, 'flood');
   });
 
+
+  
   it('rounder - returns the right number based on rounding setting', () => {
     expect(rounderSwitch(1.0, 'up')).toBe(1);
     expect(rounderSwitch(1.1, 'up')).toBe(2);
